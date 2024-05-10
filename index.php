@@ -10,34 +10,22 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="Img/carousel/dabi2.png" alt="" class="img-fluid" />
+            <img src="Img/carousel/dab.png" alt="" class="img-fluid" />
             <div class="container">
                 <div class="carousel-caption text-start"></div>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="Img/carousel/carouseldabi.png" alt="" class="img-fluid" />
+            <img src="Img/carousel/dabb.png" alt="" class="img-fluid" />
 
             <div class="container">
                 <div class="carousel-caption text-end"></div>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="Img/carousel/carousel3.jpg" alt="" class="img-fluid" />
+            <img src="Img/carousel/dabbb.png" alt="" class="img-fluid" />
 
-            <div class="carousel-caption text-start carousel-justify mt-5">
-                <br /><br /><br />
-                <p> Dear Readers,</p>
-                <br />
-                <p>
-                    Due to the disruptions caused by Covid - 19 pandemic, our deliveries
-                    have been affected . We would like to inform you that due to
-                    various restrictions and precautions, there would be delays in
-                    servicing your request . We would request for your co-operation and
-                    support during this time .
-                </p>
-                <p> Team - Book Rental </p>
-            </div>
+            
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
