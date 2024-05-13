@@ -1,18 +1,12 @@
-<!--<footer id="footer" class="foot">-->
-<!--    <div class="copyright">-->
-<!--        © Copyright <strong><span>Dress Rental</span></strong-->
-<!--        >. All Rights Reserved-->
-<!--    </div>-->
-<!--</footer>-->
 <footer class="my-5 pt-5 text-muted text-center text-small">
     <p class="mb-1">&copy; 2024 Dabi Gowns</p>
     <ul class="list-inline">
-        <li class="list-inline-item"><a href="aboutUs.php">About Us</a></li>
-        <li class="list-inline-item"><a href="termsAndCondition.php">Terms and conditions</a></li>
+        <li class="list-inline-item"><a href="aboutUs.php" class = "lnk">About Us</a></li>
+        <li class="list-inline-item"><a href="termsAndCondition.php" class = "lnk">Terms and conditions</a></li>
       <?php
         if (isset($_SESSION['USER_LOGIN'])) {
         } else {
-          echo '<li class="list-inline-item"><a href="Admin\login.php">Admin Login</a></li>';
+          echo '<li class="list-inline-item"><a href="Admin\login.php" class = "lnk">Admin Login</a></li>';
         }
       ?>
 

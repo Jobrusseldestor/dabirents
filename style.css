@@ -17,12 +17,16 @@ input[type="number"]::-webkit-outer-spin-button {
     color: rgb(212, 214, 216) !important;
 }
 
+.login-btn{
+    background-color: rgb(165, 165, 105) !important;
+}
+
 .login-btn:hover {
     background-color: black !important;
 }
 
 .search-btn:hover {
-    background-color: rgb(221, 102, 102);
+    background-color:rgb(165, 165, 105) !important;
    
 }
 
@@ -31,7 +35,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .fa-search{
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -80,17 +84,26 @@ input[type="number"]::-webkit-outer-spin-button {
     transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
     visibility: hidden;
 }
 
+
+.overlay:hover {
+    backdrop-filter: blur(2px); /* apply blur to the background */
+}
+
+.overlay:hover * {
+    filter: none; /* prevent blur from affecting text */
+}
+
 .rent-btn {
     justify-content: center;
     display: flex;
-    background-color: #f00b52;
+    background-color: #000000;
     color: #ffffff;
     font-weight: 700;
     width: 60%;
@@ -100,8 +113,9 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .rent-btn:hover {
     color: #fff;
-    background-color: #b20909;
+    background-color: #ffffff;
     transition: all ease 0.3s;
+    color: #000000;
 }
 
 
@@ -123,6 +137,7 @@ input[type="number"]::-webkit-outer-spin-button {
 #bookCardName a {
     color: black;
 }
+
 
 /* CUSTOMIZE THE FOOTER
 ------------------------------------------------------------------------------------------------ */
@@ -204,4 +219,16 @@ input[type="number"]::-webkit-outer-spin-button {
 #sidebar-nav {
     width: 160px;
 }
+body{
+    background-color: rgb(165, 165, 105) !important;
+}
 
+.lnk{
+    text-decoration: none;
+    color: black;
+}
+
+.lnk:hover{
+    text-decoration: underline;
+    color: white;
+}
