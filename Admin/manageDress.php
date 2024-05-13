@@ -31,7 +31,7 @@ if (isset($_GET['id']) && $_GET['id']!= '') {
     $short_desc = $row['short_desc'];
     $description = $row['description'];
   } else {
-    echo "<script>window.location.href='books.php';</script>";
+    echo "<script>window.location.href='dress.php';</script>";
     exit;
   }
 }
@@ -77,7 +77,7 @@ if (isset($_POST['submit'])) {
       $sql = "INSERT INTO dress (category_id, DSN, name, security, rent, qty, short_desc, description, status, img) VALUES ('$category_id', '$DSN', '$name', '$security', '$rent', '$qty', '$short_desc', '$description', '1', '$img')";
     }
     if (mysqli_query($con, $sql)) {
-      echo "<script>window.location.href='books.php';</script>";
+      echo "<script>window.location.href='dress.php';</script>";
       exit;
     } else {
       $error = "Error";

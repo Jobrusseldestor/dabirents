@@ -44,7 +44,7 @@ $res = mysqli_query($con, $sql);
         <hr>
         <br>
     </div>
-    <h5 class="btn btn-white ms-5 px-2 py-1 fs-6 "><a class="link-dark" href="manageBooks.php">Add Dress</a></h5>
+    <h5 class="btn btn-white ms-5 px-2 py-1 fs-6 "><a class="link-dark" href="manageDress.php">Add Dress</a></h5>
     <div class="card-body">
         <table class="table">
             <thead>
@@ -91,7 +91,7 @@ $res = mysqli_query($con, $sql);
                     </td>
                     <td>
                         <?php
-              echo "<a class='link-white btn btn-primary px-2 py-1' href='manageBooks.php?id=" . $row['id'] . "'>Edit</a>";
+              echo "<a class='link-white btn btn-primary px-2 py-1' href='manageDress.php?id=" . $row['id'] . "'>Edit</a>";
               ?>
                     </td>
                     <td>

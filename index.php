@@ -54,12 +54,12 @@
                 <img id="card-img" alt="Dress Image" src="<?php echo $img ?>" class="card-img-top rounded"
                     height="396rem" width="260rem" />
                 <div class="overlay">
-                    <a href="book.php?id=<?php echo $list['id'] ?>" class="btn-lg text-decoration-none rent-btn">
+                    <a href="dressss.php?id=<?php echo $list['id'] ?>" class="btn-lg text-decoration-none rent-btn">
                         Info</a>
                 </div>
             </div>
             <div id="bookCardName">
-                <a href="book.php?id=<?php echo $list['id'] ?>"
+                <a href="dressss.php?id=<?php echo $list['id'] ?>"
                     class="card-text text-uppercase text-break fw-bold text-decoration-none">
                     <?php echo $list['name'] ?>
                 </a>
@@ -96,12 +96,12 @@
                 <img id="card-img" alt="Dress Image" src="<?php echo $img ?>" class="card-img-top rounded"
                     height="396rem" width="260rem" />
                 <div class="overlay">
-                    <a href="book.php?id=<?php echo $list['id'] ?>" class="btn-lg text-decoration-none rent-btn">
+                    <a href="dressss.php?id=<?php echo $list['id'] ?>" class="btn-lg text-decoration-none rent-btn">
                         Info</a>
                 </div>
             </div>
             <div id="bookCardName">
-                <a href="book.php?id=<?php echo $list['id'] ?>"
+                <a href="dressss.php?id=<?php echo $list['id'] ?>"
                     class="card-text text-uppercase text-break fw-bold text-decoration-none">
                     <?php echo $list['name'] ?>
                 </a>

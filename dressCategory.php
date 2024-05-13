@@ -15,8 +15,8 @@ document.title = "Dress Categories | Dress Rental";
 </script>
 <div class="container-fluid ">
     <div class="row py-3">
-        <a href="#" data-bs-target="#sidebar" data-bs-toggle="collapse" class="fs-5 p-1 mt-2 text-decoration-none"><i
-                class="fas fa-bars py-2 p-1"></i>Category Menu</a>
+        <a href="#" data-bs-target="#sidebar" data-bs-toggle="collapse" class=" catee fs-5 p-1 mt-2 text-decoration-none"><i
+                class="cate fas fa-bars py-2 p-1"></i>Category Menu</a>
         <div class="col-auto px-0">
             <div id="sidebar" class=" collapse-horizontal">
                 <div id="sidebar-nav" class="text-sm-start min-vh-100">
@@ -26,7 +26,7 @@ document.title = "Dress Categories | Dress Rental";
                         <?php foreach ($catArr as $list) { ?>
                         <li>
                             <a class="nav-link  link-dark " aria-current="page"
-                                href="bookCategory.php?id=<?php echo $list['id'] ?>">
+                                href="dressCategory.php?id=<?php echo $list['id'] ?>">
                                 <?php echo $list['category'] ?> </a>
                         </li>
                         <?php
@@ -48,13 +48,13 @@ document.title = "Dress Categories | Dress Rental";
                         <img id="card-img" alt="Book Image" src="<?php echo BOOK_IMAGE_SITE_PATH . $list['img'] ?>"
                             class="card-img-top rounded" height="356rem" width="60rem" />
                         <div class="overlay">
-                            <a href="book.php?id=<?php echo $list['id'] ?>"
+                            <a href="dressss.php?id=<?php echo $list['id'] ?>"
                                 class="btn-lg text-decoration-none rent-btn">
                                 Info</a>
                         </div>
                     </div>
                     <div id="bookCardName">
-                        <a href="book.php?id=<?php echo $list['id'] ?>"
+                        <a href="dressss.php?id=<?php echo $list['id'] ?>"
                             class="card-text text-uppercase text-break fw-bold text-decoration-none">
                             <?php echo $list['name'] ?>
                         </a>

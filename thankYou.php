@@ -15,5 +15,5 @@
           echo $userName; ?></strong> for shopping with us! We are delivering your order.</p>
 
     <p> We will be sending shipping confirmation email when the item will be shipped successfully.</p>
-    <p>Team Book rental</p><br>
+    <p>Dabi Gowns</p><br>
 </div>

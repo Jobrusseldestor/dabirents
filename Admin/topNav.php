@@ -43,7 +43,7 @@ if (isset($_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_LOGIN'] != ' ') {
                         <a class="nav-link" href="categories.php">Categories</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="books.php">Dress list</a>
+                        <a class="nav-link" href="dress.php">Dress list</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="orders.php">Orders</a>

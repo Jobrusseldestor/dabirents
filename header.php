@@ -47,7 +47,7 @@ require('function.php');
                         <a id="#home" class="nav-link" href="index.php"><i class="fas fa-home"></i> Home</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link " href="bookCategory.php">Dress Categories</a>
+                        <a class="nav-link " href="dressCategory.php">Dress Categories</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contactUs.php">Contact Us</a>

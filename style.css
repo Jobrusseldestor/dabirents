@@ -17,16 +17,21 @@ input[type="number"]::-webkit-outer-spin-button {
     color: rgb(212, 214, 216) !important;
 }
 
-.login-btn{
-    background-color: rgb(165, 165, 105) !important;
+.cate{
+    color: black !important;
 }
+
+.catee{
+    color: black !important;
+}
+
 
 .login-btn:hover {
     background-color: black !important;
 }
 
 .search-btn:hover {
-    background-color:rgb(165, 165, 105) !important;
+    background-color:linen !important;
    
 }
 
@@ -218,9 +223,9 @@ input[type="number"]::-webkit-outer-spin-button {
 
 #sidebar-nav {
     width: 160px;
-}
+}   
 body{
-    background-color: rgb(165, 165, 105) !important;
+    background-color: linen !important;
 }
 
 .lnk{

@@ -43,12 +43,12 @@ document.title = "Book Categories | Book Rental";
                 <img id="card-img" alt="Book Image" src="<?php echo BOOK_IMAGE_SITE_PATH . $list['img'] ?>"
                     class="card-img-top rounded" height="250rem" />
                 <div class="overlay">
-                    <a href="book.php?id=<?php echo $list['id'] ?>" class="btn-lg text-decoration-none rent-btn">
+                    <a href="dressss.php?id=<?php echo $list['id'] ?>" class="btn-lg text-decoration-none rent-btn">
                         Info</a>
                 </div>
             </div>
             <div id="bookCardName">
-                <a href="book.php?id=<?php echo $list['id'] ?>"
+                <a href="dressss.php?id=<?php echo $list['id'] ?>"
                     class="card-text text-uppercase text-break fw-bold text-decoration-none">
                     <?php echo $list['name'] ?>
                 </a>
